@@ -1,0 +1,23 @@
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+.gameCell {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: #7fffd4;
+    font-size: 85px;
+    text-align: center;
+    color: coral;
+}
+
+.gameCell:hover {
+    background-color: #6fefc4;
+    cursor: pointer;
+}
